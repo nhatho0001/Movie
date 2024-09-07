@@ -1,0 +1,13 @@
+li{
+    color: white;
+    list-style-type: none;
+    padding: 0 5px;
+    transition: 0.5s;
+}
+li a {
+    color: white;
+    text-decoration-line: none;
+}
+li a:hover{
+    color: var(--primary);
+}

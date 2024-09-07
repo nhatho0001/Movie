@@ -1,0 +1,86 @@
+.Movie{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 100px;
+}
+.bungee-regular {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: normal;
+}
+.ImgBg{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+.ImgBg img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.infoMovie{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    bottom: 0;
+    left: 400px;
+    max-width: 600px;
+}
+.lisetGenres{
+    display: flex;
+    gap: 10px;
+}
+
+.genresCard{
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+.company p{
+    padding: 10px;
+    color: white;
+    background-color: var(--primary);
+}
+.Poster{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.366);
+}
+
+.ImgBg::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.49);
+}
+
+.homepage{
+    position: absolute;
+    display: flex;
+    top: 500px;
+    left: 500px;
+    padding: 50px 0;
+    gap: 10px;
+}
+
+.homepage div{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+}
+.homepage div a{
+    text-decoration: none;
+    color: black;
+}

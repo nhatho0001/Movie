@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Racing+Sans+One&family=Roboto+Slab:wght@100..900&display=swap');
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    z-index : 10000;
+}
+
+.nav{
+    display: flex;
+    text-decoration: none;
+}
+
+.Logo{
+    text-decoration: none;
+    text-decoration-line: none;
+    font-size: 2rem;
+    color: white;
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 800;
+}
+.search-sigin{
+    display: flex;
+}
+
+.search-sigin button{
+    background-color: var(--primary);
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 0;
+}
+
+.search-sigin button:hover{
+    box-shadow: #ff37009c 0px 8px 24px, #ff37009c 0px 16px 56px, #ff37009c 0px 24px 80px; 
+}

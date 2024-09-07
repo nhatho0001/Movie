@@ -1,0 +1,33 @@
+.movieModal{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    right: 100px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.47);
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.929);
+    z-index: 15000;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.movieModal iframe{
+    max-width: 1200px;
+    max-height: 780px;
+}
+
+.movieModal.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.modalClose{
+    position: absolute;
+    top:-10px ;
+    right: 10px;
+
+}
